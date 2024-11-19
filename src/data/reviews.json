@@ -1,0 +1,467 @@
+[
+    {
+        "productId": 1,
+        "reviews": [
+            {
+                "user": "Pedro",
+                "rating": 5,
+                "comment": "Deliciosa tortilla, las papas están en su punto y la ensalada complementa muy bien."
+            },
+            {
+                "user": "Luisa",
+                "rating": 4,
+                "comment": "Muy buena, aunque me gustaría un poco más de sazón."
+            }
+        ]
+    },
+    {
+        "productId": 2,
+        "reviews": [
+            {
+                "user": "Ricardo",
+                "rating": 4,
+                "comment": "La suprema está excelente, pero me gustaría que tuviera un poco más de puré."
+            },
+            {
+                "user": "Silvia",
+                "rating": 5,
+                "comment": "Perfecta combinación de pollo y puré, muy sabrosa."
+            }
+        ]
+    },
+    {
+        "productId": 3,
+        "reviews": [
+            {
+                "user": "Laura",
+                "rating": 5,
+                "comment": "Muy buena, la salsa napolitana le da un toque increíble."
+            },
+            {
+                "user": "David",
+                "rating": 4,
+                "comment": "Buen sabor, aunque la porción podría ser un poco más grande."
+            }
+        ]
+    },
+    {
+        "productId": 4,
+        "reviews": [
+            {
+                "user": "Carmen",
+                "rating": 4,
+                "comment": "La tarta de acelga es deliciosa, aunque la masa podría ser un poco más crujiente."
+            },
+            {
+                "user": "Esteban",
+                "rating": 5,
+                "comment": "La receta casera se nota, excelente tarta con un sabor casero."
+            }
+        ]
+    },
+    {
+        "productId": 5,
+        "reviews": [
+            {
+                "user": "Mariana",
+                "rating": 4,
+                "comment": "La combinación de pollo y verduras está bien, pero esperaba más sabor."
+            },
+            {
+                "user": "Carlos",
+                "rating": 5,
+                "comment": "Perfecta, me encantó la mezcla de pollo y verduras, muy sabrosa."
+            }
+        ]
+    },
+    {
+        "productId": 6,
+        "reviews": [
+            {
+                "user": "Javier",
+                "rating": 5,
+                "comment": "La tarta de choclo es riquísima, muy recomendable."
+            },
+            {
+                "user": "Susana",
+                "rating": 4,
+                "comment": "Buena, pero el choclo podría ser más jugoso."
+            }
+        ]
+    },
+    {
+        "productId": 7,
+        "reviews": [
+            {
+                "user": "Felipe",
+                "rating": 4,
+                "comment": "Me gustó mucho, pero la tarta podría tener más jamón."
+            },
+            {
+                "user": "Verónica",
+                "rating": 5,
+                "comment": "Excelente tarta, con un sabor que te hace sentir en casa."
+            }
+        ]
+    },
+    {
+        "productId": 8,
+        "reviews": [
+            {
+                "user": "Martin",
+                "rating": 5,
+                "comment": "Las empanadas de carne son muy sabrosas, un clásico que nunca falla."
+            },
+            {
+                "user": "Paola",
+                "rating": 4,
+                "comment": "Muy buenas, aunque las prefiero un poco más crujientes."
+            }
+        ]
+    },
+    {
+        "productId": 9,
+        "reviews": [
+            {
+                "user": "Sofía",
+                "rating": 5,
+                "comment": "Me encantaron, muy bien sazonadas y bien cocidas."
+            },
+            {
+                "user": "Elena",
+                "rating": 4,
+                "comment": "Muy buenas empanadas, aunque me gustaría que tuviera más pollo."
+            }
+        ]
+    },
+    {
+        "productId": 10,
+        "reviews": [
+            {
+                "user": "Ricardo",
+                "rating": 4,
+                "comment": "Las empanadas de jamón y queso están muy buenas, pero me gustaría que tuvieran un poco más de queso."
+            },
+            {
+                "user": "Ana",
+                "rating": 5,
+                "comment": "Las mejores empanadas de jamón y queso que he probado."
+            }
+        ]
+    },
+    {
+        "productId": 11,
+        "reviews": [
+            {
+                "user": "Lucas",
+                "rating": 4,
+                "comment": "Muy buenas empanadas, el mondongo tiene buen sabor, pero la masa podría ser más ligera."
+            },
+            {
+                "user": "Patricia",
+                "rating": 5,
+                "comment": "Increíbles empanadas, muy bien preparadas, totalmente recomendables."
+            }
+        ]
+    },
+    {
+        "productId": 12,
+        "reviews": [
+            {
+                "user": "Luz",
+                "rating": 5,
+                "comment": "Excelente milanesa, muy jugosa y con el puré perfecto."
+            },
+            {
+                "user": "Fernando",
+                "rating": 4,
+                "comment": "Muy buena, pero me gustaría un poco más de puré."
+            }
+        ]
+    },
+    {
+        "productId": 13,
+        "reviews": [
+            {
+                "user": "Daniel",
+                "rating": 5,
+                "comment": "La napolitana con puré es increíble, el sabor es delicioso."
+            },
+            {
+                "user": "Martina",
+                "rating": 4,
+                "comment": "Muy buena, aunque el puré podría estar más cremoso."
+            }
+        ]
+    },
+    {
+        "productId": 14,
+        "reviews": [
+            {
+                "user": "Julian",
+                "rating": 4,
+                "comment": "Buen guiso, aunque me gustaría que tuviera más especias."
+            },
+            {
+                "user": "Marta",
+                "rating": 5,
+                "comment": "Un guiso delicioso, perfecto para el frío."
+            }
+        ]
+    },
+    {
+        "productId": 15,
+        "reviews": [
+            {
+                "user": "Rafael",
+                "rating": 5,
+                "comment": "Este estofado es perfecto para el invierno, muy sabroso."
+            },
+            {
+                "user": "Lucía",
+                "rating": 4,
+                "comment": "Muy bueno, pero podría tener más papas."
+            }
+        ]
+    },
+    {
+        "productId": 16,
+        "reviews": [
+            {
+                "user": "Carlos",
+                "rating": 5,
+                "comment": "Una opción simple pero deliciosa, muy bien hecha."
+            },
+            {
+                "user": "Valeria",
+                "rating": 4,
+                "comment": "Buen sabor, pero un poco más de queso no estaría mal."
+            }
+        ]
+    },
+    {
+        "productId": 17,
+        "reviews": [
+            {
+                "user": "Héctor",
+                "rating": 4,
+                "comment": "Buena pizza, aunque me gustaría que tuviera más queso."
+            },
+            {
+                "user": "Patricia",
+                "rating": 5,
+                "comment": "Increíble pizza, con mucho queso y muy sabrosa."
+            }
+        ]
+    },
+    {
+        "productId": 18,
+        "reviews": [
+            {
+                "user": "Oscar",
+                "rating": 5,
+                "comment": "Una de las mejores pizzas que he probado, todo en su punto."
+            },
+            {
+                "user": "Clara",
+                "rating": 4,
+                "comment": "Muy buena pizza, pero me gustaría que tuviera más jamón."
+            }
+        ]
+    },
+    {
+        "productId": 19,
+        "reviews": [
+            {
+                "user": "Francisco",
+                "rating": 4,
+                "comment": "La pizza de ternera está rica, pero la carne podría tener más sabor."
+            },
+            {
+                "user": "Andrea",
+                "rating": 5,
+                "comment": "Una pizza espectacular, la ternera es jugosa y deliciosa."
+            }
+        ]
+    },
+    {
+        "productId": 20,
+        "reviews": [
+            {
+                "user": "Felipe",
+                "rating": 4,
+                "comment": "La pizza fugazza es buena, pero prefiero más cebolla caramelizada."
+            },
+            {
+                "user": "María",
+                "rating": 5,
+                "comment": "La mejor pizza fugazza que he probado, muy sabrosa."
+            }
+        ]
+    },
+    {
+        "productId": 24,
+        "reviews": [
+            {
+                "user": "Juan Perez",
+                "rating": 5,
+                "comment": "La hamburguesa es deliciosa, los ingredientes frescos y bien combinados. ¡Muy recomendada!"
+            },
+            {
+                "user": "Ana Martínez",
+                "rating": 4,
+                "comment": "Muy buena, pero un poco más de salsa no estaría mal."
+            }
+        ]
+    },
+    {
+        "productId": 25,
+        "reviews": [
+            {
+                "user": "Maria Gomez",
+                "rating": 4.5,
+                "comment": "Muy buena opción para una comida ligera. El bife de pollo está bien preparado."
+            },
+            {
+                "user": "Carlos Ruiz",
+                "rating": 4,
+                "comment": "Me gustó mucho, aunque el bife podría estar más jugoso."
+            }
+        ]
+    },
+    {
+        "productId": 26,
+        "reviews": [
+            {
+                "user": "Carlos Ruiz",
+                "rating": 4,
+                "comment": "Un plato simple pero sabroso. El puré estaba excelente, aunque el bife podía ser un poco más jugoso."
+            },
+            {
+                "user": "Juan Perez",
+                "rating": 4.5,
+                "comment": "Me gustó mucho, aunque desearía que el bife fuera más grande."
+            }
+        ]
+    },
+    {
+        "productId": 27,
+        "reviews": [
+            {
+                "user": "Ana Martínez",
+                "rating": 4.8,
+                "comment": "Una de las mejores opciones del menú. El bife con fideos y manteca es espectacular."
+            },
+            {
+                "user": "Ricardo López",
+                "rating": 4.5,
+                "comment": "Muy buen plato, aunque el fideo podría ser más al dente."
+            }
+        ]
+    },
+    {
+        "productId": 28,
+        "reviews": [
+            {
+                "user": "Ricardo López",
+                "rating": 4.6,
+                "comment": "Excelente opción liviana, muy bien sazonada. El arroz primavera complementa perfectamente el bife."
+            },
+            {
+                "user": "Fernando Torres",
+                "rating": 5,
+                "comment": "¡Me encantó! El arroz estaba increíble y la carne perfecta."
+            }
+        ]
+    },
+    {
+        "productId": 29,
+        "reviews": [
+            {
+                "user": "Laura Sánchez",
+                "rating": 4.3,
+                "comment": "El bife de carne con ensalada es muy bueno, aunque el precio podría ser un poco más bajo."
+            },
+            {
+                "user": "Sofía Herrera",
+                "rating": 4.7,
+                "comment": "Un plato delicioso y ligero, muy bien balanceado."
+            }
+        ]
+    },
+    {
+        "productId": 30,
+        "reviews": [
+            {
+                "user": "Fernando Torres",
+                "rating": 5,
+                "comment": "El bife con puré está muy bien equilibrado y es realmente delicioso. Perfecto para una comida reconfortante."
+            },
+            {
+                "user": "Victor Pérez",
+                "rating": 4.8,
+                "comment": "Muy sabroso, pero el puré podría ser un poco más cremoso."
+            }
+        ]
+    },
+    {
+        "productId": 31,
+        "reviews": [
+            {
+                "user": "Sofía Herrera",
+                "rating": 4.5,
+                "comment": "Me encantó este bife de carne con papas fritas, aunque el tamaño de la porción podría ser mayor."
+            },
+            {
+                "user": "Luis Pérez",
+                "rating": 4.6,
+                "comment": "Excelente plato, las papas fritas son crujientes y el bife muy bien cocinado."
+            }
+        ]
+    },
+    {
+        "productId": 32,
+        "reviews": [
+            {
+                "user": "Luis Pérez",
+                "rating": 4.7,
+                "comment": "Muy buena combinación de carne y arroz primavera. El plato tiene una presentación muy atractiva."
+            },
+            {
+                "user": "Marcelo García",
+                "rating": 4.6,
+                "comment": "Me gustó, aunque el arroz podría estar un poco más sazonado."
+            }
+        ]
+    },
+    {
+        "productId": 33,
+        "reviews": [
+            {
+                "user": "Valeria Soto",
+                "rating": 4.3,
+                "comment": "El bife de pollo con papas fritas tiene un sabor muy bueno, pero las papas podrían estar un poco más crujientes."
+            },
+            {
+                "user": "Ricardo López",
+                "rating": 4.5,
+                "comment": "Muy buen plato, aunque me gustaría un poco más de salsa."
+            }
+        ]
+    },
+    {
+        "productId": 34,
+        "reviews": [
+            {
+                "user": "Jorge Díaz",
+                "rating": 3.9,
+                "comment": "El bife con fideos y manteca es rico, pero el fideo no estaba tan bien cocido como esperaba."
+            },
+            {
+                "user": "Ana Ruiz",
+                "rating": 4.2,
+                "comment": "Un plato bueno, pero le falta un toque más de sazón."
+            }
+        ]
+    }
+]

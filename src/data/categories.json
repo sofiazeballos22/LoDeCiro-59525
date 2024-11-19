@@ -1,0 +1,68 @@
+[
+    {
+        "id": 1, 
+        "title" :  "Hamburguesas",
+        "image" : "hola"
+    },
+    {
+        "id": 2, 
+        "title" :  "Pizzas",
+        "image" : "hola"
+    },
+
+    {
+        "id": 3, 
+        "title" :  "Milanesas",
+        "image" : "hola"
+    },
+
+    {
+        "id": 4, 
+        "title" :  "Tartas",
+        "image" : "hola"
+    },
+
+    {
+        "id": 5, 
+        "title" :  "Tortillas",
+        "image" : "hola"
+    },
+
+    {
+        "id": 6, 
+        "title" :  "Empanadas",
+        "image" : "hola"
+    },
+
+    {
+        "id": 7, 
+        "title" :  "Bifes",
+        "image" : "hola"
+    },
+    {
+        "id": 8, 
+        "title" :  "Pastas",
+        "image" : "hola"
+    },
+    {
+        "id": 9, 
+        "title" :  "Guisos",
+        "image" : "hola"
+    },
+    {
+        "id": 10, 
+        "title" :  "Adicionales",
+        "image" : "hola"
+    },
+    {
+        "id": 11, 
+        "title" :  "Sandwiches",
+        "image" : "hola"
+    },
+    {
+        "id": 12, 
+        "title" :  "Lomitos",
+        "image" : "hola"
+    }
+
+]

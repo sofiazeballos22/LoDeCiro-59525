@@ -1,20 +1,37 @@
+import { useFonts } from 'expo-font'
+import * as SplashScreen from 'expo-splash-screen'
+import { useEffect, useState } from 'react';
 import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+import Header from './src/components/Header';
+//import Navigator from './src/navigation/Navigator'
+import TabNavigation from './src/navigation/TabNavigation';
+import { store } from './src/app/store';
+import { Provider } from 'react-redux';
 
-export default function App() {
+SplashScreen.preventAutoHideAsync();
+
+
+export default function App () {
+  const [loaded, error] = useFonts({
+    'Jacques': require('./assets/fonts/JacquesFrancoisShadow-Regular.ttf'),
+    'Henny': require('./assets/fonts/HennyPenny-Regular.ttf')
+  });
+
+
+
+  useEffect(() => {
+    if (loaded || error) {
+      SplashScreen.hideAsync();
+    }
+  }, [loaded, error]);
+
+  if (!loaded && !error) {
+    return null;
+  }
   return (
-    <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
-      <StatusBar style="auto" />
-    </View>
-  );
+    <Provider store = {store}>
+      <TabNavigation />
+      <StatusBar style="light" />
+      </Provider>
+  )
 }
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
