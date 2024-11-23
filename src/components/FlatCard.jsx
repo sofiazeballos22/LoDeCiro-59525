@@ -17,9 +17,10 @@ const styles = StyleSheet.create({
     backgroundColor: colors.azulMarino,
     shadowColor: colors.celesteVivo,
     shadowOpacity: 1,
-    shadowRadius: 1,
-    shadowOffset: { width: 3, height: 5 },
-    elevation: 10,
+    shadowRadius: 20,
+    shadowOffset: { width: 3, height: 3 },
+    elevation: 60,
     borderRadius: 20,
+
   }
 })

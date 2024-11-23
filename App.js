@@ -7,6 +7,7 @@ import Header from './src/components/Header';
 import TabNavigation from './src/navigation/TabNavigation';
 import { store } from './src/app/store';
 import { Provider } from 'react-redux';
+import MainNavigation from './src/navigation/MainNavigation';
 
 SplashScreen.preventAutoHideAsync();
 
@@ -30,7 +31,7 @@ export default function App () {
   }
   return (
     <Provider store = {store}>
-      <TabNavigation />
+      <MainNavigation />
       <StatusBar style="light" />
       </Provider>
   )

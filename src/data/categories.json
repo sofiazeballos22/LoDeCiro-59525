@@ -2,7 +2,7 @@
     {
         "id": 1, 
         "title" :  "Hamburguesas",
-        "image" : "hola"
+        "image" : "https://postimg.cc/3yMHKHFS"
     },
     {
         "id": 2, 
@@ -36,7 +36,7 @@
 
     {
         "id": 7, 
-        "title" :  "Bifes",
+        "title" :  "Bifes de carne",
         "image" : "hola"
     },
     {
@@ -62,6 +62,16 @@
     {
         "id": 12, 
         "title" :  "Lomitos",
+        "image" : "hola"
+    },
+    {
+        "id": 13, 
+        "title" :  "Bifes de pollo",
+        "image" : "hola"
+    },
+    {
+        "id": 14, 
+        "title" :  "Supremas",
         "image" : "hola"
     }
 

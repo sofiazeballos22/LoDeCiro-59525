@@ -7,13 +7,13 @@ const Stack = createNativeStackNavigator()
 
 const Navigator = () => {
   return (
-    <NavigationContainer>
+   
         <Stack.Navigator>
             <Stack.Screen name="Categorías" component={CategoriesScreen}/>
             <Stack.Screen name="Producto" component={ProductScreen}/>
             <Stack.Screen name="Productos" component={ProductsScreen}/>
         </Stack.Navigator>
-    </NavigationContainer>
+   
   )
 }
 

@@ -11,7 +11,8 @@
         "category": "Tortillas",
         "tags": ["papas","tortilla","menu"],
         "thumbnail": "https://i.dummyjson.com/data/products/1/thumbnail.jpg",
-        "images": "https://i.dummyjson.com/data/products/1/1.jpg"         
+        "images": "https://i.dummyjson.com/data/products/1/1.jpg",
+        "shortDescription": "Tortilla de papas con guarnición incluida"
     },
     {
         "id": 2,
@@ -22,7 +23,7 @@
         "rating": 4.44,
         "stock": 34,
         "brand": "Delicias caseras",
-        "category": "Milanesas de pollo",
+        "category": "Supremas",
         "tags":["pollo","suprema"],
         "thumbnail": "https://i.dummyjson.com/data/products/2/thumbnail.jpg",
         "images":  "https://i.dummyjson.com/data/products/2/1.jpg"
@@ -36,7 +37,7 @@
         "rating": 4.09,
         "stock": 36,
         "brand": "Delicias caseras",
-        "category": "Milanesas de pollo",
+        "category": "Supremas",
         "tags":["pollo","suprema"],
         "thumbnail": "https://i.dummyjson.com/data/products/3/thumbnail.jpg",
         "images": "https://i.dummyjson.com/data/products/3/1.jpg"
@@ -372,7 +373,7 @@
         "rating": 4.08,
         "stock": 131,
         "brand": "Delicias caseras",
-        "category": "Bifes",
+        "category": "Bifes de pollo",
         "tags": ["bife","pollo"],
         "thumbnail": "https://i.dummyjson.com/data/products/26/thumbnail.jpg",
         "images":  "https://i.dummyjson.com/data/products/26/1.jpg"
@@ -387,7 +388,7 @@
         "rating": 4.41,
         "stock": 17,
         "brand": "Delicias caseras",
-        "category": "Bifes",
+        "category": "Bifes de pollo",
         "tags": ["bife","pollo"],
         "thumbnail": "https://i.dummyjson.com/data/products/27/thumbnail.webp",
         "images":  "https://i.dummyjson.com/data/products/27/1.jpg"
@@ -402,7 +403,7 @@
         "rating": 4.82,
         "stock": 54,
         "brand": "Delicias caseras",
-        "category": "Bifes",
+        "category": "Bifes de pollo",
         "tags": ["bife","pollo"],
         "thumbnail": "https://i.dummyjson.com/data/products/28/thumbnail.jpg",
         "images":  "https://i.dummyjson.com/data/products/28/1.jpg"
@@ -417,7 +418,7 @@
         "rating": 4.44,
         "stock": 7,
         "brand": "Delicias caseras",
-        "category": "Bifes",
+        "category": "Bifes de carne",
         "tags": "carne",
         "thumbnail": "https://i.dummyjson.com/data/products/29/thumbnail.webp",
         "images":  "https://i.dummyjson.com/data/products/29/1.jpg"
@@ -425,7 +426,7 @@
     },
     {
         "id": 30,
-        "title": "Bifes de carne c/ puré",
+        "title": "Bife de carne c/ puré",
         "description": "Nuestra opción liviana. Hecha con ingredientes frescos",
         "price": 3500,
         "discountPercentage": 2.92,
@@ -440,7 +441,7 @@
     },
     {
         "id": 31,
-        "title": "Bifes de carne c/ papas fritas",
+        "title": "Bife de carne c/ papas fritas",
         "description": "Una opción un poco más elevada, pero sin dudas la más deliciosa.",
         "price": 3500,
         "discountPercentage": 17,
@@ -462,7 +463,7 @@
         "rating": 4.74,
         "stock": 30,
         "brand": "Delicias caseras",
-        "category": "Bifes",
+        "category": "Bifes de carne",
         "tags": "carne",
         "thumbnail": "https://i.dummyjson.com/data/products/32/thumbnail.jpg",
         "images":   "https://i.dummyjson.com/data/products/32/1.jpg"
@@ -477,7 +478,7 @@
         "rating": 4.31,
         "stock": 106,
         "brand": "Delicias caseras",
-        "category": "Bifes",
+        "category": "Bifes de pollo",
         "tags": ["pollo","bife"],
         "thumbnail": "https://i.dummyjson.com/data/products/33/thumbnail.jpg",
         "images":   "https://i.dummyjson.com/data/products/33/1.jpg"
@@ -492,7 +493,7 @@
         "rating": 4.01,
         "stock": 136,
         "brand": "Delicias caseras",
-        "category": "Bifes",
+        "category": "Bifes de carne",
         "tags": "carne",
         "thumbnail": "https://i.dummyjson.com/data/products/34/thumbnail.jpg",
         "images":  "https://i.dummyjson.com/data/products/34/1.jpg"
@@ -639,7 +640,7 @@
         "rating": 4.05,
         "stock": 148,
         "brand": "Delicias caseras",
-        "category": "Milanesas",
+        "category": "Supremas",
         "tags": ["plato","napolitana","suprema"],
         "thumbnail": "https://i.dummyjson.com/data/products/42/thumbnail.jpg",
         "images":  "https://i.dummyjson.com/data/products/42/1.png"
@@ -654,7 +655,7 @@
         "rating": 4.05,
         "stock": 148,
         "brand": "Delicias caseras",
-        "category": "Milanesas",
+        "category": "Supremas",
         "tags": ["plato","napolitana","suprema","dos"],
         "thumbnail": "https://i.dummyjson.com/data/products/42/thumbnail.jpg",
         "images": "https://i.dummyjson.com/data/products/42/1.png"
@@ -683,7 +684,7 @@
         "rating": 4.05,
         "stock": 148,
         "brand": "Delicias caseras",
-        "category": "Milanesas",
+        "category": "Supremas",
         "tags": ["plato","napolitana","suprema","dos"],
         "thumbnail": "https://i.dummyjson.com/data/products/42/thumbnail.jpg",
         "images": "https://i.dummyjson.com/data/products/42/1.png"
@@ -761,6 +762,20 @@
         "tags": "milanesa",
         "thumbnail": "https://i.dummyjson.com/data/products/42/thumbnail.jpg",
         "images": "https://i.dummyjson.com/data/products/42/1.png" 
+    },
+    {
+        "id": 53,
+        "title": "Suprema al plato con papas",
+        "description": "Suprema al plato con guarnición incluida",
+        "price": 5500,
+        "discountPercentage": 15.37,
+        "rating": 4.05,
+        "stock": 148,
+        "brand": "Delicias caseras",
+        "category": "Supremas",
+        "tags": "milanesa",
+        "thumbnail": "https://i.dummyjson.com/data/products/42/thumbnail.jpg",
+        "images": "https://i.dummyjson.com/data/products/42/1.png" 
     }
- 
+    
 ]

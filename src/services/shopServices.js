@@ -1,9 +1,9 @@
 import { createApi, fetchBaseQuery } from "@reduxjs/toolkit/query/react"
-import { base_url } from "../firebase/dataBase"
+//import { base_url } from "../firebase/dataBase"
 
 export const shopApi = createApi ({
     reducerPath: 'shopApi',
-    baseQuery: fetchBaseQuery({ baseUrl: base_url }),
+    baseQuery: fetchBaseQuery({ baseUrl: process.env.EXPO_PUBLIC_BASE_URL }),
     endpoints: (builder) => ({
         getCategories:builder.query({
             query: () => 'categories.json'
@@ -13,14 +13,13 @@ export const shopApi = createApi ({
         }),
         getProductsByCategory:builder.query({
             query: (category) => {
-                category = category.ToLowerCase()
+              //  category = category.toLowerCase()
                 return (
-                `products.json?orderBy="category&equalTo="${category}"`
-                )
-            },
-            transformErrorResponse: (response) => (
-                response ? Object.values(response) : []
-            )
+                    `products.json?orderBy="category"&equalTo="${category}"` //Strings literal
+        )},
+        transformResponse: (response) =>(
+            response ? Object.values(response) : [] 
+        )
         }),
         getProduct: builder.query({
             query: (productId) => `products.json?orderBy="id"&equalTo=${productId}`,
@@ -28,7 +27,8 @@ export const shopApi = createApi ({
                 response ? Object.values(response)[0] : null
             )
         })
-    }),
+}),
+
 })
 
 export const { useGetCategoriesQuery, useGetProductsQuery, useGetProductsByCategoryQuery, useGetProductQuery } = shopApi

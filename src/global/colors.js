@@ -5,5 +5,5 @@ export const colors = {
     azulMarino : "#006585",
     naranjaPastel : "#fca640",
     beigeOscuro : "#cc9670",
-
+    beigeClaro : "#ffebd6",
 }
